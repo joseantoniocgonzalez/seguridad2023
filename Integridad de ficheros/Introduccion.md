@@ -1,0 +1,5 @@
+# Introducción
+
+`Root Kit Hunter`, a partir de ahora `rkhunter`, es una utilidad de escaneo diseñada para ayudar a los administradores de sistemas a buscar y descubrir la presencia de `rootkits`, `backdoors` y `exploits` locales en sus sistemas. Mediante la implementación de un conjunto de pruebas y verificaciones, esta herramienta proporciona una capa más de defensa para los sistemas operativos `Linux`.
+
+Esta capa de seguridad es gracias a las pruebas que realiza la herramienta en el sistema, que incluyen la verificación de archivos de sistema esenciales, la búsqueda de strings sospechosas en el kernel, y la comparación de las sumas de comprobación de los archivos críticos con los valores conocidos de versiones legítimas. Además, RKHunter puede ser configurado para realizar análisis periódicos y enviar alertas por correo electrónico, proporcionando una respuesta proactiva ante posibles compromisos.
